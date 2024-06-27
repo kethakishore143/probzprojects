@@ -1,0 +1,55 @@
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Button styles */
+.chart-buttons {
+  margin-bottom: 20px;
+}
+
+.chart-buttons button {
+  margin: 5px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.chart-buttons button:hover {
+  background-color: #0056b3;
+}
+
+
+.chart-wrapper {
+  width: 100%;
+  max-width: 800px;
+
+}
+
+
+.recharts-default-tooltip {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 8px 12px;
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.recharts-tooltip label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.chartheading {
+  font-size: 25px;
+  font-family: "Roboto";
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+}
